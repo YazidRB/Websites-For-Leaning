@@ -60,7 +60,7 @@ body {
 .head {
   width: 100%;
   background-color: var(--Dark-Blue-testimonials-background);
-  background-image: url(/images/bg-curvy-desktop.svg);
+  background-image: url(../images/bg-curvy-desktop.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -176,7 +176,7 @@ body {
     background-color: var(--Dark-Blue-main-background);
   }
   .head {
-    background-image: url(/images/bg-curvy-mobile.svg),
+    background-image: url(../images/bg-curvy-mobile.svg),
       linear-gradient(
         to bottom,
         rgb(27, 35, 48) 425px,
@@ -390,7 +390,7 @@ body {
 }
 
 .reviews::before {
-  content: url(/images/bg-quotes.png);
+  content: url(../images/bg-quotes.png);
   bottom: 240px;
   left: 93px;
   position: absolute;
@@ -513,14 +513,14 @@ body {
 }
 
 .footer .continer .adress::before {
-  content: url(/images/icon-location.svg);
+  content: url(../images/icon-location.svg);
   position: absolute;
   left: -42px;
 }
 
 .footer .continer .adress::after {
   display: inline-block;
-  content: url(/images/logo.svg);
+  content: url(../images/logo.svg);
   position: absolute;
   left: -75px;
   top: -110px;
@@ -545,7 +545,7 @@ body {
 }
 
 .footer .continer .adr-num ul li:first-child::before {
-  content: url(/images/icon-phone.svg);
+  content: url(../images/icon-phone.svg);
   position: absolute;
   left: -35px;
 }
@@ -555,7 +555,7 @@ body {
 }
 
 .footer .continer .adr-num ul li:last-child::before {
-  content: url(/images/icon-email.svg);
+  content: url(../images/icon-email.svg);
   position: absolute;
   left: -35px;
 }
